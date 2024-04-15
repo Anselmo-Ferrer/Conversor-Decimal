@@ -158,3 +158,4 @@ apagar.addEventListener('click', function() {
     octal.textContent = ''
     hexadecimal.textContent = ''
 })
+ 
