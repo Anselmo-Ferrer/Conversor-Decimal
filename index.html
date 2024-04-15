@@ -9,55 +9,59 @@
 </head>
 <body>
     <div class="container">
-        <div class="top-section">
-            <span class="title">Conversor</span>
+        <div class="right">
+            <div class="top-section">
+                <span class="title">Conversor</span>
 
-            <div class="darkmode">
-                <input type="checkbox" name="dark" id="dark">
-                <label class="label" for="dark">
-                    <i class="fa-solid fa-sun"></i>
-                    <i class="fa-solid fa-moon"></i>
-                    <div class="ball"></div>
-                </label>
+                <div class="darkmode">
+                    <input type="checkbox" name="dark" id="dark">
+                    <label class="label" for="dark">
+                        <i class="fa-solid fa-sun"></i>
+                        <i class="fa-solid fa-moon"></i>
+                        <div class="ball"></div>
+                    </label>
+                </div>
+
             </div>
 
-        </div>
+            <div class="input-field">
+                <input type="text" id="numero" name="numero" placeholder="Numero" required>
+            </div>
 
-        <div class="input-field">
-            <input type="text" id="numero" name="numero" placeholder="Numero" required>
-        </div>
-
-        <div class="select">
-            <select class="select-input" id="select">
-                <option selected value="decimal">Decimal</option>
-                <option value="binario">Binario</option>
-                <option value="octal">Octal</option>
-                <option value="hexadecimal">Hexadecimal</option>
-            </select>
-            <div class="buttons">
-                <button id="send"><i class="fa-solid fa-arrow-right btn"></i></button>
-                <button id="trash"><i class="fa-solid fa-trash btn"></i></button>
+            <div class="select">
+                <select class="select-input" id="select">
+                    <option selected value="decimal">Decimal</option>
+                    <option value="binario">Binario</option>
+                    <option value="octal">Octal</option>
+                    <option value="hexadecimal">Hexadecimal</option>
+                </select>
+                <div class="buttons">
+                    <button id="send"><i class="fa-solid fa-arrow-right btn"></i></button>
+                    <button id="trash"><i class="fa-solid fa-trash btn"></i></button>
+                </div>
             </div>
         </div>
 
         <div id="line-separator"></div>
 
-        <div class="results-section">
-            <span class="results-title">Decimal</span>
-            <div class="results">
-                <span id="decimal"></span>
-            </div>
-            <span class="results-title">Binario</span>
-            <div class="results">
-                <span id="binario"></span>
-            </div>
-            <span class="results-title">Octal</span>
-            <div class="results">
-                <span id="octal"></span>
-            </div>
-            <span class="results-title">Hexadecimal</span>
-            <div class="results">
-                <span id="hexadecimal"></span>
+        <div class="left">
+            <div class="results-section">
+                <span class="results-title">Decimal</span>
+                <div class="results">
+                    <span id="decimal"></span>
+                </div>
+                <span class="results-title">Binario</span>
+                <div class="results">
+                    <span id="binario"></span>
+                </div>
+                <span class="results-title">Octal</span>
+                <div class="results">
+                    <span id="octal"></span>
+                </div>
+                <span class="results-title">Hexadecimal</span>
+                <div class="results">
+                    <span id="hexadecimal"></span>
+                </div>
             </div>
         </div>
 

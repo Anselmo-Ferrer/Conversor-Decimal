@@ -67,8 +67,7 @@ body {
     padding: 2rem;
     border-radius: 1rem;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    gap: 2rem;
 }
 
 .top-section {
@@ -95,6 +94,7 @@ body {
 
 .input-field {
     width: 100%;
+    height: 1.5rem;
     border: 1.5px solid var(--black);
     padding: 0.2rem 0.4rem;
     border-radius: 0.3rem;
@@ -177,11 +177,13 @@ select {
 }
 
 #line-separator {
-    border-top: 1px solid var(--gray-900);
+    border-left: 1px solid var(--gray-900);
     opacity: 0.3;
-    width: 92%;
-    margin-top: 1rem;
     padding-top: 1rem;
+}
+
+.right, .left {
+    width: 100%;
 }
 
 .results-section {
@@ -193,7 +195,7 @@ select {
 .results {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 200px;
     height: 1.5rem;
     border-radius: 0.3rem;
     padding: 0.2rem 0.4rem;
